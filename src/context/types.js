@@ -1,0 +1,4 @@
+export const LOAD_VIDEOS = 'LOAD_VIDEOS';
+export const LOAD_MORE_VIDEOS = 'LOAD_MORE_VIDEOS';
+export const SET_ACTIVE_VIDEO = 'SET_ACTIVE_VIDEO';
+export const SET_NEXT_PAGE_TOKEN = 'SET_NEXT_PAGE_TOKEN';

@@ -1,3 +1,48 @@
 @tailwind base;
+
 @tailwind components;
+
+.description a {
+  @apply text-indigo-500;
+}
+
+.description a:hover {
+  @apply underline;
+}
+
+.playlist {
+  height: auto;
+}
+
+@screen lg {
+  .playlist {
+    height: 331.83px;
+  }
+}
+
+@screen xl {
+  .playlist {
+    height: 435.19px;
+  }
+}
+
+.video--wrap {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 51%;
+}
+
+.video--wrap iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
 @tailwind utilities;
+
+.active {
+  @apply text-white;
+}
